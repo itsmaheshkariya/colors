@@ -1,4 +1,4 @@
-let color;
+let color : object;
 export default color = {
     red_lighten_5:'#ffebee',
     red_lighten_4:'#ffcdd2',
