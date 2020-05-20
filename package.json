@@ -1,9 +1,0 @@
-{
-  "name": "colors",
-  "version": "1.0.0",
-  "description": "Material Design Colors.",
-  "main": "index.js",
-  "repository": "https://github.com/maheshkareeya/colors.git",
-  "author": "maheshkareeya <maheshkareeya@gmail.com>",
-  "license": "MIT"
-}
