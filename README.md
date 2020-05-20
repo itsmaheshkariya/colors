@@ -12,8 +12,8 @@ import {body,h1} from "https://deno.land/x/ssr/index.ts";
 import color from "https://deno.land/x/colors/index.ts";
 
 const s = serve({ port: 8000 });
-const template = body({style:{color:colors.yellow}},
-                    h1({style:{color:colors.red}},'Hello World'))
+const template = body({style:{color:color.yellow}},
+                    h1({style:{color:color.red}},'Hello World'))
 for await (const req of s) { req.respond({ body : template })
 }
 
